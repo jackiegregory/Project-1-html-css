@@ -34,7 +34,6 @@ img {
 /*Style for 'Subtitles'*/
 .Subtitle, .link-as-subtitle {
   font-family: 'Bad Script', cursive;
-  width: 800px;
   height: 70px;
   line-height: 70px;
   vertical-align: middle;
@@ -59,7 +58,6 @@ img {
 /*Style for paragraph content*/
 p {
   font-family: 'Open Sans Condensed', sans-serif;
-  width: 800px;
   height: auto;
   margin-top: 10px;
   margin-bottom: 10px;
