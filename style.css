@@ -1,0 +1,141 @@
+
+/*Style for 'Page header title'*/
+h1 {
+  background-color: #84C7D0;
+  font-family: 'Satisfy', cursive;
+  font-weight: lighter;
+  font-size: 92px;
+  width: auto;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  line-height: 150px;
+  vertical-align: middle;
+  color: black;
+}
+
+/*Style for 'Emoji header image'*/
+img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #9368B7;
+  border-width: medium;
+  border-style: solid;
+}
+
+/*Style for 'wrapper'*/
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+/*Style for 'Subtitles'*/
+.Subtitle, .link-as-subtitle {
+  font-family: 'Bad Script', cursive;
+  width: 800px;
+  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+  margin: auto;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 36px;
+  color: #9368B7;
+}
+
+/*Special link style for 'link-as-subtitle'*/
+.link-as-subtitle:link {
+  color: #9368B7;
+  text-decoration: none;
+}
+
+.link-as-subtitle:active {
+  color: #9368B7;
+  text-decoration: none;
+}
+
+/*Style for paragraph content*/
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 800px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 18px;
+}
+
+/*General style for lists*/
+.unorder, .order, li {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 760px;
+}
+
+/*Specific style for ul*/
+.unorder {
+  list-style: square;
+}
+
+/*Specific style for ol*/
+.order {
+  list-style-type: decimal;
+}
+
+/*Style for page break*/
+hr {
+  border-bottom-color: #75DDDD;
+  border-bottom-style: dotted;
+  width: 800px;
+
+}
+
+/*Style for links in paragraph*/
+a:link {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+a:visited {
+  color: #9368B7;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+a:hover {
+  color: #84C7D0;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+/*Style for 'footer'*/
+.footer {
+  background-color: #84C7D0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: auto;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: auto;
+  text-align: center;
+  line-height: 110px;
+  vertical-align: middle;
+  font-size: 10pt;
+  color: black;
+}
